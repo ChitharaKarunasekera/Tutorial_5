@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="667.0" prefWidth="841.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <SplitPane dividerPositions="0.2286803239637923" prefHeight="667.0" prefWidth="841.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <TabPane prefHeight="667.0" prefWidth="190.0" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                      <Tab text="Tab 1">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                        </content>
+                      </Tab>
+                      <Tab text="Tab 2">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                        </content>
+                      </Tab>
+                        <Tab text="Tab 3">
+                           <content>
+                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                           </content>
+                        </Tab>
+                        <Tab text="Tab N">
+                           <content>
+                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                           </content>
+                        </Tab>
+                    </tabs>
+                  </TabPane>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <SplitPane dividerPositions="0.7426337943475646" layoutY="-1.0" orientation="VERTICAL" prefHeight="667.0" prefWidth="646.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <SplitPane dividerPositions="0.7184978274363749" layoutX="-1.0" prefHeight="491.0" prefWidth="646.0">
+                                <items>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                       <children>
+                                          <TabPane prefHeight="490.0" prefWidth="460.0" tabClosingPolicy="UNAVAILABLE">
+                                            <tabs>
+                                              <Tab text="Tab 1">
+                                                <content>
+                                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                                </content>
+                                              </Tab>
+                                              <Tab text="Tab 2">
+                                                <content>
+                                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                                </content>
+                                              </Tab>
+                                                <Tab text="Tab 3">
+                                                   <content>
+                                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                                   </content>
+                                                </Tab>
+                                                <Tab text="Tab N">
+                                                   <content>
+                                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                                   </content>
+                                                </Tab>
+                                            </tabs>
+                                          </TabPane>
+                                       </children>
+                                    </AnchorPane>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                       <children>
+                                          <TabPane prefHeight="490.0" prefWidth="178.0" tabClosingPolicy="UNAVAILABLE">
+                                            <tabs>
+                                              <Tab text="Tab 1" />
+                                              <Tab text="Tab 2" />
+                                                <Tab text="Tab 3" />
+                                                <Tab text="Tab N" />
+                                            </tabs>
+                                          </TabPane>
+                                       </children>
+                                    </AnchorPane>
+                                </items>
+                              </SplitPane>
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <TabPane layoutY="-1.0" prefHeight="170.0" prefWidth="645.0" tabClosingPolicy="UNAVAILABLE">
+                                <tabs>
+                                  <Tab text="Tab 1" />
+                                  <Tab text="Tab 2" />
+                                    <Tab text="Tab 3" />
+                                    <Tab text="Tab N" />
+                                </tabs>
+                              </TabPane>
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

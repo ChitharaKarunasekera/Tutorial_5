@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/15.0.1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="500.0" style="-fx-background-color: #98FFE7;">
+         <children>
+            <VBox layoutX="83.0" layoutY="39.0" prefHeight="93.0" prefWidth="85.0" spacing="15.0">
+               <children>
+                  <Label text="Title">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="10.0" layoutY="10.0" text="First Name">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label graphicTextGap="7.0" layoutX="10.0" layoutY="28.0" text="Last Name">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox layoutX="174.0" layoutY="41.0" prefHeight="108.0" prefWidth="250.0" spacing="6.0">
+               <children>
+                  <TextField fx:id="title" />
+                  <TextField fx:id="fName" layoutX="10.0" layoutY="10.0" />
+                  <TextField fx:id="lName" layoutX="10.0" layoutY="36.0" />
+               </children>
+            </VBox>
+            <Button fx:id="submitbtn" layoutX="204.0" layoutY="183.0" mnemonicParsing="false" onAction="#getName" prefHeight="42.0" prefWidth="94.0" text="Submit" />
+            <Label fx:id="displaylb" contentDisplay="CENTER" layoutX="121.0" layoutY="269.0" onDragDetected="#displayName" prefHeight="42.0" prefWidth="260.0" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
